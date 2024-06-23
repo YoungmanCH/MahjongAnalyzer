@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F47CCE02C27FBD0001A5418 /* MahjongAnalyzerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47CCDF2C27FBD0001A5418 /* MahjongAnalyzerApp.swift */; };
+		1F47CCE42C27FBD1001A5418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F47CCE32C27FBD1001A5418 /* Assets.xcassets */; };
+		1F47CCE72C27FBD1001A5418 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F47CCE62C27FBD1001A5418 /* Preview Assets.xcassets */; };
+		1F47CCF12C27FBD1001A5418 /* MahjongAnalyzerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47CCF02C27FBD1001A5418 /* MahjongAnalyzerTests.swift */; };
+		1F47CCFB2C27FBD1001A5418 /* MahjongAnalyzerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47CCFA2C27FBD1001A5418 /* MahjongAnalyzerUITests.swift */; };
+		1F47CCFD2C27FBD1001A5418 /* MahjongAnalyzerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47CCFC2C27FBD1001A5418 /* MahjongAnalyzerUITestsLaunchTests.swift */; };
+		1F47CD0C2C27FCFD001A5418 /* Data in Resources */ = {isa = PBXBuildFile; fileRef = 1F47CD092C27FCFD001A5418 /* Data */; };
+		1F47CD0D2C27FCFD001A5418 /* Domain in Resources */ = {isa = PBXBuildFile; fileRef = 1F47CD0A2C27FCFD001A5418 /* Domain */; };
+		1F47CD0E2C27FCFD001A5418 /* Core in Resources */ = {isa = PBXBuildFile; fileRef = 1F47CD0B2C27FCFD001A5418 /* Core */; };
+		1F47CD102C27FD09001A5418 /* Presentation in Resources */ = {isa = PBXBuildFile; fileRef = 1F47CD0F2C27FD09001A5418 /* Presentation */; };
+		1F47CD152C280071001A5418 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47CD142C280071001A5418 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F47CCED2C27FBD1001A5418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F47CCD42C27FBD0001A5418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F47CCDB2C27FBD0001A5418;
+			remoteInfo = MahjongAnalyzer;
+		};
+		1F47CCF72C27FBD1001A5418 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F47CCD42C27FBD0001A5418 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F47CCDB2C27FBD0001A5418;
+			remoteInfo = MahjongAnalyzer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F47CCDC2C27FBD0001A5418 /* MahjongAnalyzer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MahjongAnalyzer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F47CCDF2C27FBD0001A5418 /* MahjongAnalyzerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahjongAnalyzerApp.swift; sourceTree = "<group>"; };
+		1F47CCE32C27FBD1001A5418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F47CCE62C27FBD1001A5418 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1F47CCEC2C27FBD1001A5418 /* MahjongAnalyzerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MahjongAnalyzerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F47CCF02C27FBD1001A5418 /* MahjongAnalyzerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahjongAnalyzerTests.swift; sourceTree = "<group>"; };
+		1F47CCF62C27FBD1001A5418 /* MahjongAnalyzerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MahjongAnalyzerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F47CCFA2C27FBD1001A5418 /* MahjongAnalyzerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahjongAnalyzerUITests.swift; sourceTree = "<group>"; };
+		1F47CCFC2C27FBD1001A5418 /* MahjongAnalyzerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahjongAnalyzerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1F47CD092C27FCFD001A5418 /* Data */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Data; sourceTree = "<group>"; };
+		1F47CD0A2C27FCFD001A5418 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Domain; sourceTree = "<group>"; };
+		1F47CD0B2C27FCFD001A5418 /* Core */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Core; sourceTree = "<group>"; };
+		1F47CD0F2C27FD09001A5418 /* Presentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Presentation; sourceTree = "<group>"; };
+		1F47CD142C280071001A5418 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = MahjongAnalyzer/Presentation/Views/ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F47CCD92C27FBD0001A5418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F47CCE92C27FBD1001A5418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F47CCF32C27FBD1001A5418 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F47CCD32C27FBD0001A5418 = {
+			isa = PBXGroup;
+			children = (
+				1F47CD142C280071001A5418 /* ContentView.swift */,
+				1F47CCDE2C27FBD0001A5418 /* MahjongAnalyzer */,
+				1F47CCEF2C27FBD1001A5418 /* MahjongAnalyzerTests */,
+				1F47CCF92C27FBD1001A5418 /* MahjongAnalyzerUITests */,
+				1F47CCDD2C27FBD0001A5418 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F47CCDD2C27FBD0001A5418 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F47CCDC2C27FBD0001A5418 /* MahjongAnalyzer.app */,
+				1F47CCEC2C27FBD1001A5418 /* MahjongAnalyzerTests.xctest */,
+				1F47CCF62C27FBD1001A5418 /* MahjongAnalyzerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F47CCDE2C27FBD0001A5418 /* MahjongAnalyzer */ = {
+			isa = PBXGroup;
+			children = (
+				1F47CD0F2C27FD09001A5418 /* Presentation */,
+				1F47CD0B2C27FCFD001A5418 /* Core */,
+				1F47CD092C27FCFD001A5418 /* Data */,
+				1F47CD0A2C27FCFD001A5418 /* Domain */,
+				1F47CCDF2C27FBD0001A5418 /* MahjongAnalyzerApp.swift */,
+				1F47CCE32C27FBD1001A5418 /* Assets.xcassets */,
+				1F47CCE52C27FBD1001A5418 /* Preview Content */,
+			);
+			path = MahjongAnalyzer;
+			sourceTree = "<group>";
+		};
+		1F47CCE52C27FBD1001A5418 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1F47CCE62C27FBD1001A5418 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1F47CCEF2C27FBD1001A5418 /* MahjongAnalyzerTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F47CCF02C27FBD1001A5418 /* MahjongAnalyzerTests.swift */,
+			);
+			path = MahjongAnalyzerTests;
+			sourceTree = "<group>";
+		};
+		1F47CCF92C27FBD1001A5418 /* MahjongAnalyzerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F47CCFA2C27FBD1001A5418 /* MahjongAnalyzerUITests.swift */,
+				1F47CCFC2C27FBD1001A5418 /* MahjongAnalyzerUITestsLaunchTests.swift */,
+			);
+			path = MahjongAnalyzerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F47CCDB2C27FBD0001A5418 /* MahjongAnalyzer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F47CD002C27FBD1001A5418 /* Build configuration list for PBXNativeTarget "MahjongAnalyzer" */;
+			buildPhases = (
+				1F47CCD82C27FBD0001A5418 /* Sources */,
+				1F47CCD92C27FBD0001A5418 /* Frameworks */,
+				1F47CCDA2C27FBD0001A5418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MahjongAnalyzer;
+			productName = MahjongAnalyzer;
+			productReference = 1F47CCDC2C27FBD0001A5418 /* MahjongAnalyzer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F47CCEB2C27FBD1001A5418 /* MahjongAnalyzerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F47CD032C27FBD1001A5418 /* Build configuration list for PBXNativeTarget "MahjongAnalyzerTests" */;
+			buildPhases = (
+				1F47CCE82C27FBD1001A5418 /* Sources */,
+				1F47CCE92C27FBD1001A5418 /* Frameworks */,
+				1F47CCEA2C27FBD1001A5418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F47CCEE2C27FBD1001A5418 /* PBXTargetDependency */,
+			);
+			name = MahjongAnalyzerTests;
+			productName = MahjongAnalyzerTests;
+			productReference = 1F47CCEC2C27FBD1001A5418 /* MahjongAnalyzerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F47CCF52C27FBD1001A5418 /* MahjongAnalyzerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F47CD062C27FBD1001A5418 /* Build configuration list for PBXNativeTarget "MahjongAnalyzerUITests" */;
+			buildPhases = (
+				1F47CCF22C27FBD1001A5418 /* Sources */,
+				1F47CCF32C27FBD1001A5418 /* Frameworks */,
+				1F47CCF42C27FBD1001A5418 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F47CCF82C27FBD1001A5418 /* PBXTargetDependency */,
+			);
+			name = MahjongAnalyzerUITests;
+			productName = MahjongAnalyzerUITests;
+			productReference = 1F47CCF62C27FBD1001A5418 /* MahjongAnalyzerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F47CCD42C27FBD0001A5418 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					1F47CCDB2C27FBD0001A5418 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					1F47CCEB2C27FBD1001A5418 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 1F47CCDB2C27FBD0001A5418;
+					};
+					1F47CCF52C27FBD1001A5418 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 1F47CCDB2C27FBD0001A5418;
+					};
+				};
+			};
+			buildConfigurationList = 1F47CCD72C27FBD0001A5418 /* Build configuration list for PBXProject "MahjongAnalyzer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F47CCD32C27FBD0001A5418;
+			productRefGroup = 1F47CCDD2C27FBD0001A5418 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F47CCDB2C27FBD0001A5418 /* MahjongAnalyzer */,
+				1F47CCEB2C27FBD1001A5418 /* MahjongAnalyzerTests */,
+				1F47CCF52C27FBD1001A5418 /* MahjongAnalyzerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F47CCDA2C27FBD0001A5418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F47CCE72C27FBD1001A5418 /* Preview Assets.xcassets in Resources */,
+				1F47CCE42C27FBD1001A5418 /* Assets.xcassets in Resources */,
+				1F47CD0D2C27FCFD001A5418 /* Domain in Resources */,
+				1F47CD0E2C27FCFD001A5418 /* Core in Resources */,
+				1F47CD102C27FD09001A5418 /* Presentation in Resources */,
+				1F47CD0C2C27FCFD001A5418 /* Data in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F47CCEA2C27FBD1001A5418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F47CCF42C27FBD1001A5418 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F47CCD82C27FBD0001A5418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F47CD152C280071001A5418 /* ContentView.swift in Sources */,
+				1F47CCE02C27FBD0001A5418 /* MahjongAnalyzerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F47CCE82C27FBD1001A5418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F47CCF12C27FBD1001A5418 /* MahjongAnalyzerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F47CCF22C27FBD1001A5418 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F47CCFB2C27FBD1001A5418 /* MahjongAnalyzerUITests.swift in Sources */,
+				1F47CCFD2C27FBD1001A5418 /* MahjongAnalyzerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F47CCEE2C27FBD1001A5418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F47CCDB2C27FBD0001A5418 /* MahjongAnalyzer */;
+			targetProxy = 1F47CCED2C27FBD1001A5418 /* PBXContainerItemProxy */;
+		};
+		1F47CCF82C27FBD1001A5418 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F47CCDB2C27FBD0001A5418 /* MahjongAnalyzer */;
+			targetProxy = 1F47CCF72C27FBD1001A5418 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F47CCFE2C27FBD1001A5418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F47CCFF2C27FBD1001A5418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F47CD012C27FBD1001A5418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MahjongAnalyzer/Preview Content\"";
+				DEVELOPMENT_TEAM = QNK8MSF4X8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.MahjongAnalyzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F47CD022C27FBD1001A5418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MahjongAnalyzer/Preview Content\"";
+				DEVELOPMENT_TEAM = QNK8MSF4X8;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.MahjongAnalyzer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F47CD042C27FBD1001A5418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNK8MSF4X8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.MahjongAnalyzerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MahjongAnalyzer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MahjongAnalyzer";
+			};
+			name = Debug;
+		};
+		1F47CD052C27FBD1001A5418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNK8MSF4X8;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.MahjongAnalyzerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MahjongAnalyzer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MahjongAnalyzer";
+			};
+			name = Release;
+		};
+		1F47CD072C27FBD1001A5418 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNK8MSF4X8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.MahjongAnalyzerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MahjongAnalyzer;
+			};
+			name = Debug;
+		};
+		1F47CD082C27FBD1001A5418 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QNK8MSF4X8;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = info.MahjongAnalyzerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MahjongAnalyzer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F47CCD72C27FBD0001A5418 /* Build configuration list for PBXProject "MahjongAnalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F47CCFE2C27FBD1001A5418 /* Debug */,
+				1F47CCFF2C27FBD1001A5418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F47CD002C27FBD1001A5418 /* Build configuration list for PBXNativeTarget "MahjongAnalyzer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F47CD012C27FBD1001A5418 /* Debug */,
+				1F47CD022C27FBD1001A5418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F47CD032C27FBD1001A5418 /* Build configuration list for PBXNativeTarget "MahjongAnalyzerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F47CD042C27FBD1001A5418 /* Debug */,
+				1F47CD052C27FBD1001A5418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F47CD062C27FBD1001A5418 /* Build configuration list for PBXNativeTarget "MahjongAnalyzerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F47CD072C27FBD1001A5418 /* Debug */,
+				1F47CD082C27FBD1001A5418 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F47CCD42C27FBD0001A5418 /* Project object */;
+}
