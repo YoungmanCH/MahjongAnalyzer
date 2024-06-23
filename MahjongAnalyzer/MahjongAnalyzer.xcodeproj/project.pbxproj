@@ -18,6 +18,11 @@
 		1F47CD0E2C27FCFD001A5418 /* Core in Resources */ = {isa = PBXBuildFile; fileRef = 1F47CD0B2C27FCFD001A5418 /* Core */; };
 		1F47CD102C27FD09001A5418 /* Presentation in Resources */ = {isa = PBXBuildFile; fileRef = 1F47CD0F2C27FD09001A5418 /* Presentation */; };
 		1F47CD152C280071001A5418 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47CD142C280071001A5418 /* ContentView.swift */; };
+		1F91BAA72C2807F3001FA012 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91BAA62C2807F3001FA012 /* StartView.swift */; };
+		1F91BAA92C280819001FA012 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91BAA82C280819001FA012 /* InputView.swift */; };
+		1F91BAAB2C28087B001FA012 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91BAAA2C28087B001FA012 /* ResultView.swift */; };
+		1F91BAAD2C2808D5001FA012 /* MahjongAnalyzerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91BAAC2C2808D5001FA012 /* MahjongAnalyzerViewModel.swift */; };
+		1F91BAAF2C2808F8001FA012 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91BAAE2C2808F8001FA012 /* ImagePickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,11 @@
 		1F47CD0B2C27FCFD001A5418 /* Core */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Core; sourceTree = "<group>"; };
 		1F47CD0F2C27FD09001A5418 /* Presentation */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Presentation; sourceTree = "<group>"; };
 		1F47CD142C280071001A5418 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = MahjongAnalyzer/Presentation/Views/ContentView.swift; sourceTree = "<group>"; };
+		1F91BAA62C2807F3001FA012 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		1F91BAA82C280819001FA012 /* InputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		1F91BAAA2C28087B001FA012 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		1F91BAAC2C2808D5001FA012 /* MahjongAnalyzerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahjongAnalyzerViewModel.swift; sourceTree = "<group>"; };
+		1F91BAAE2C2808F8001FA012 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +92,11 @@
 		1F47CCD32C27FBD0001A5418 = {
 			isa = PBXGroup;
 			children = (
+				1F91BAAA2C28087B001FA012 /* ResultView.swift */,
+				1F91BAAC2C2808D5001FA012 /* MahjongAnalyzerViewModel.swift */,
+				1F91BAAE2C2808F8001FA012 /* ImagePickerView.swift */,
+				1F91BAA62C2807F3001FA012 /* StartView.swift */,
+				1F91BAA82C280819001FA012 /* InputView.swift */,
 				1F47CD142C280071001A5418 /* ContentView.swift */,
 				1F47CCDE2C27FBD0001A5418 /* MahjongAnalyzer */,
 				1F47CCEF2C27FBD1001A5418 /* MahjongAnalyzerTests */,
@@ -273,6 +288,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F91BAA72C2807F3001FA012 /* StartView.swift in Sources */,
+				1F91BAAD2C2808D5001FA012 /* MahjongAnalyzerViewModel.swift in Sources */,
+				1F91BAA92C280819001FA012 /* InputView.swift in Sources */,
+				1F91BAAB2C28087B001FA012 /* ResultView.swift in Sources */,
+				1F91BAAF2C2808F8001FA012 /* ImagePickerView.swift in Sources */,
 				1F47CD152C280071001A5418 /* ContentView.swift in Sources */,
 				1F47CCE02C27FBD0001A5418 /* MahjongAnalyzerApp.swift in Sources */,
 			);
