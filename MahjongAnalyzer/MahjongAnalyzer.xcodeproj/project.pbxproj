@@ -23,6 +23,9 @@
 		1F91BAAB2C28087B001FA012 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91BAAA2C28087B001FA012 /* ResultView.swift */; };
 		1F91BAAD2C2808D5001FA012 /* MahjongAnalyzerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91BAAC2C2808D5001FA012 /* MahjongAnalyzerViewModel.swift */; };
 		1F91BAAF2C2808F8001FA012 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91BAAE2C2808F8001FA012 /* ImagePickerView.swift */; };
+		1F91BAB52C2812AA001FA012 /* FontStyleSampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91BAB42C2812AA001FA012 /* FontStyleSampleView.swift */; };
+		1F91BAB72C2812E4001FA012 /* FontStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F91BAB62C2812E4001FA012 /* FontStyle.swift */; };
+		1F91BAB92C281A46001FA012 /* NotoSerifJP-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F91BAB82C281A46001FA012 /* NotoSerifJP-Light.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +65,9 @@
 		1F91BAAA2C28087B001FA012 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		1F91BAAC2C2808D5001FA012 /* MahjongAnalyzerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahjongAnalyzerViewModel.swift; sourceTree = "<group>"; };
 		1F91BAAE2C2808F8001FA012 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		1F91BAB42C2812AA001FA012 /* FontStyleSampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyleSampleView.swift; sourceTree = "<group>"; };
+		1F91BAB62C2812E4001FA012 /* FontStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyle.swift; sourceTree = "<group>"; };
+		1F91BAB82C281A46001FA012 /* NotoSerifJP-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "NotoSerifJP-Light.ttf"; path = "../../../Downloads/Noto_Serif_JP/static/NotoSerifJP-Light.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,10 +98,13 @@
 		1F47CCD32C27FBD0001A5418 = {
 			isa = PBXGroup;
 			children = (
+				1F91BAB82C281A46001FA012 /* NotoSerifJP-Light.ttf */,
 				1F91BAAA2C28087B001FA012 /* ResultView.swift */,
 				1F91BAAC2C2808D5001FA012 /* MahjongAnalyzerViewModel.swift */,
 				1F91BAAE2C2808F8001FA012 /* ImagePickerView.swift */,
 				1F91BAA62C2807F3001FA012 /* StartView.swift */,
+				1F91BAB42C2812AA001FA012 /* FontStyleSampleView.swift */,
+				1F91BAB62C2812E4001FA012 /* FontStyle.swift */,
 				1F91BAA82C280819001FA012 /* InputView.swift */,
 				1F47CD142C280071001A5418 /* ContentView.swift */,
 				1F47CCDE2C27FBD0001A5418 /* MahjongAnalyzer */,
@@ -259,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F47CCE72C27FBD1001A5418 /* Preview Assets.xcassets in Resources */,
+				1F91BAB92C281A46001FA012 /* NotoSerifJP-Light.ttf in Resources */,
 				1F47CCE42C27FBD1001A5418 /* Assets.xcassets in Resources */,
 				1F47CD0D2C27FCFD001A5418 /* Domain in Resources */,
 				1F47CD0E2C27FCFD001A5418 /* Core in Resources */,
@@ -290,11 +300,13 @@
 			files = (
 				1F91BAA72C2807F3001FA012 /* StartView.swift in Sources */,
 				1F91BAAD2C2808D5001FA012 /* MahjongAnalyzerViewModel.swift in Sources */,
+				1F91BAB72C2812E4001FA012 /* FontStyle.swift in Sources */,
 				1F91BAA92C280819001FA012 /* InputView.swift in Sources */,
 				1F91BAAB2C28087B001FA012 /* ResultView.swift in Sources */,
 				1F91BAAF2C2808F8001FA012 /* ImagePickerView.swift in Sources */,
 				1F47CD152C280071001A5418 /* ContentView.swift in Sources */,
 				1F47CCE02C27FBD0001A5418 /* MahjongAnalyzerApp.swift in Sources */,
+				1F91BAB52C2812AA001FA012 /* FontStyleSampleView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +473,9 @@
 				DEVELOPMENT_TEAM = QNK8MSF4X8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MahjongAnalyzer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "$(MARKETING_VERSION)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -490,6 +505,9 @@
 				DEVELOPMENT_TEAM = QNK8MSF4X8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MahjongAnalyzer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSAppleMusicUsageDescription = "$(MARKETING_VERSION)";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
