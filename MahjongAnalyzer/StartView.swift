@@ -11,26 +11,44 @@ struct StartView: View {
     var body: some View {
         NavigationView {
             VStack {
-                Text("Welcome to MahjongAnalyzer")
-                    .font(.largeTitle)
+                Spacer()
+                
+                Text("麻雀Analyzer")
+                    .fontStyle(.titleExtraLarge)
+                    .foregroundColor(.white)
                     .padding()
                 
                 NavigationLink(destination: InputView()) {
                     Text("Start")
-                        .font(.title)
+                        .fontStyle(.titleMiddle)
                         .padding()
+                        .frame(maxWidth: .infinity)
                         .background(Color.blue)
                         .foregroundColor(.white)
                         .cornerRadius(10)
+                        .padding(.horizontal, 40)
                 }
+                
+                Spacer()
             }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(
+                LinearGradient(
+                    gradient: Gradient(colors: [
+                        Color(red: 0.1, green: 0.9, blue: 0.4),
+                        Color(red: 0.0, green: 0.7, blue: 0.9),
+                        Color(red: 0.0, green: 0.9, blue: 0.5),
+                    ]),
+                    startPoint: .topLeading,
+                    endPoint: .bottomTrailing
+                )
+            )
+            .foregroundColor(.black)
+            .edgesIgnoringSafeArea(.all)
         }
     }
 }
 
-struct StartView_Previews: PreviewProvider {
-    static var previews: some View {
-        StartView()
-    }
+#Preview {
+    StartView()
 }
-
